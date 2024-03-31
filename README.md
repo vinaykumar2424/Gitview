@@ -40,9 +40,6 @@ GitView is a web application built with React.js for the frontend and Express.js
 5. Start the backend server: `node server.js`
 6. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
-## Component Structure
-![Component Structure](./component-structure.png)
-
 ## Conclusion
 GitView simplifies the process of exploring GitHub repositories and generating documentation. Its user-friendly interface and powerful features make it a valuable tool for developers and researchers alike.
 
