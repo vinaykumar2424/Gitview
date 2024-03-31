@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  /* background-color: #1a2b57; */
+}
+*::selection{
+    background-color: #015d8c;
+    color: #ffffff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64e3ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #015d8c;
+}
