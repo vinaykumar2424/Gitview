@@ -122,16 +122,16 @@ const Home = () => {
                             </div>
                             <div className='other-details'>
                                 <span>
-                                    <span>{userData.public_repos}{console.log(userData.public_repos)}</span>
+                                    <span>{userData.followers}</span>
+                                    <span>followers</span>
+                                </span>
+                                <span>
+                                    <span>{userData.public_repos}</span>
                                     <span>Repos</span>
                                 </span>
                                 <span>
-                                    <span>{userData.public_repos}{console.log(userData.public_repos)}</span>
-                                    <span>Repos</span>
-                                </span>
-                                <span>
-                                    <span>{userData.public_repos}{console.log(userData.public_repos)}</span>
-                                    <span>Repos</span>
+                                    <span>{userData.following}</span>
+                                    <span>followings</span>
                                 </span>
                             </div>
                             <Link className='go-to-btn' to="/user-details" state={{ userData: userData }}>

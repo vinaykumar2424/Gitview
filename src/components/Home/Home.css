@@ -277,13 +277,13 @@ nav>.history>li>a>img {
     color: #7e7e7e;
 }
 #result-section>.other-details{
-    width: calc(100% - 6rem);
+    width: calc(100% - 3rem);
     height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
 }
 #result-section>.other-details>span{
     display: flex;
@@ -302,7 +302,7 @@ nav>.history>li>a>img {
 #result-section>.go-to-btn{
     background-color: #2e2e2e;
     color: #cacaca;
-    padding: 0.5rem 4.5rem;
+    padding: 0.5rem 3.5rem;
     border-radius: 8px;
     text-decoration: none;
     border: 1px solid rgb(64, 64, 64);
